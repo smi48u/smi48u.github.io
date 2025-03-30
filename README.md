@@ -44,13 +44,14 @@ I graduated from a technical high school over a decade ago and spent years outsi
 ### 🤝 Let’s Connect
 
 - 🌐 [Website](https://smi48u.github.io)  
-- 📬 [Email](mailto:lukaszsmistek@gmail.com) ← *(replace)*  
+- 📬 [Email](mailto:lukaszsmistek@gmail.com) 
 - 🐙 [GitHub Profile](https://github.com/smi48u)
 
 > *"I may not be the best yet — but I’m not stopping until I get there."*
 
 ---
-
+<div style="overflow-x: auto;">
+  <pre>
 ## 🇵🇱 Wersja polska
 
 Witaj na stronie portfolio **smi48u** – początkującego specjalisty ds. cyberbezpieczeństwa z wykształceniem technicznym w zakresie IT i telekomunikacji.
@@ -90,7 +91,10 @@ Ukończyłem technikum informatyczne ponad dekadę temu, ale przez wiele lat pra
 ### 🤝 Skontaktuj się
 
 - 🌐 [Strona](https://smi48u.github.io)  
-- 📬 [Email](mailto:lukaszsmistek@gmail.com) ← *(podmień na swój)*  
+- 📬 [Email](mailto:lukaszsmistek@gmail.com) 
 - 🐙 [Profil GitHub](https://github.com/smi48u)
 
 > *„Może jeszcze nie jestem najlepszy — ale nie przestanę, dopóki tam nie dotrę.”*
+</pre>
+</div>
+
