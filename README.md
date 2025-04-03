@@ -1,59 +1,70 @@
-# smi48u.github.io — Cybersecurity Portfolio
+# smi48u's Cybersecurity Blog & Portfolio
 
-Welcome to the personal portfolio of **smi48u**, an aspiring cybersecurity specialist with a background in IT and telecommunications.
+A minimalist, terminal-inspired personal site to document my cybersecurity learning path and share practical insights from my journey.
 
-This site is built and maintained as part of my career switch into cybersecurity. It's a place where I document my progress, share technical insights, and demonstrate my commitment to learning and building real-world skills.
-
----
-
-## 🔍 About Me
-
-I graduated from a technical high school over a decade ago and spent years outside the tech industry. In 2024, I made the decision to return to my roots and fully dedicate myself to cybersecurity. Since then, I’ve:
-
-- Earned the **CompTIA Security+ (SY0-701)** certification  
-- Completed hands-on labs and OSINT mini-projects  
-- Studied and worked consistently while being employed full-time  
-- Built this site as a digital lab and learning space
+![Screenshot](img/preview.png)
 
 ---
 
-## 🧠 What's Inside
+## 🔎 About this Project
 
-This portfolio contains:
+This site was created as a personal learning challenge. I wanted to build something that looks like it belongs to someone passionate about cybersecurity — clean, minimal, a bit hackerish.
 
-- ✅ A short **About Me** section  
-- 🧾 A **blog** with reflections, notes, and technical write-ups  
-- 🔍 **OSINT projects** and learning experiments  
-- 🎯 Plans and roadmap toward my first role in cybersecurity
+I designed the structure, wrote the content, and used ChatGPT to assist with:
+- writing responsive HTML/CSS
+- improving UX for mobile
+- creating Markdown-powered blog rendering
+- building a clean, modern card layout
+- fixing tricky bugs and edge cases
 
----
-
-## 🚀 Tech Stack
-
-- HTML5 + CSS3 (pure)
-- Responsive design with mobile-first principles
-- Hosted on **GitHub Pages**
-- Optimized for clarity, readability, and accessibility
+**This project is 100% mine.** Every line of code, prompt, decision and revision — even if some ideas came from AI, I made sure I understood and controlled the result.
 
 ---
 
-## 🛠️ Future Plans
+## 🚀 Features
 
-- Add more OSINT cases and write-ups  
-- Build a small lab environment with public results  
-- Automate blog system using Markdown or JSON  
-- Integrate small JS tools and scripts
-
----
-
-## 🤝 Let’s Connect
-
-If you're a recruiter, mentor, or fellow learner — feel free to connect or reach out!
-
-- [🔗 Portfolio Website](https://smi48u.github.io)  
-- [📬 Email](mailto:lukaszsmistek@gmail.com)  
-- [🔗 GitHub Profile](https://github.com/smi48u)
+- Responsive HTML/CSS layout
+- Custom blog system powered by Markdown
+- Syntax highlighting & command line aesthetics
+- SEO-friendly and fast
+- GitHub Pages ready
 
 ---
 
-> *"I may not be the best yet — but I’m not stopping until I get there."*
+## 💡 How I Use It
+
+- Share my learning notes, OSINT labs, threat research, and insights
+- Document my journey from beginner to cybersecurity pro
+- Showcase my growth to future employers
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── blog.html
+├── blog/
+│   ├── post-1.md
+│   ├── post-2.md
+│   └── post-3.md
+├── css/
+│   └── styles.css
+├── js/
+│   ├── blog.js
+│   └── post.js
+└── img/
+    └── post-3/
+```
+
+---
+
+## 📖 Live Site
+
+[https://smi48u.github.io](https://smi48u.github.io)
+
+---
+
+## ✅ Feel free to fork, clone, or adapt
+
+If you're building your own portfolio and want to start somewhere simple but structured — this is a good base.
