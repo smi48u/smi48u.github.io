@@ -4,9 +4,9 @@ const posts = [
   {
     title: "How I Built This Site",
     date: "2025-04-04",
-    file: "post-1.md",
+    file: "about-site.md",
     icon: "fas fa-code",
-    preview: "A detailed breakdown of how I created this minimalist cybersecurity blog using HTML, CSS, JS and Markdown.",
+    preview: "A detailed breakdown of how I created this minimalist cybersecurity blog using HTML, CSS, JS, Markdown and caffeine:).",
     tags: ["portfolio", "build", "html", "learning"]
   }
 ];
