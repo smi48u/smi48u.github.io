@@ -52,7 +52,7 @@ I designed the structure, wrote the content, and used ChatGPT to assist with:
 │   ├── blog.js
 │   └── post.js
 └── img/
-    └── post-3/
+    └── fevicon.png
 ```
 
 ---
