@@ -42,10 +42,11 @@ Just like real engineers use Stack Overflow — I used ChatGPT.
 
 ## ✨ What I Learned
 
-How to structure a clean HTML/CSS portfolio  
-How to render Markdown files with JavaScript  
-How to work with GitHub Pages  
-How to make minimalism look powerful
+How to develop and create an HTML page from scratch
+How to design a page style in CSS
+How to render Markdown and embed it in a page
+How to create simple scripts in JavaScript
+How to work with GitHub/GitHub Pages
 
 <br>
 
