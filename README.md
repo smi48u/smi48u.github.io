@@ -43,14 +43,13 @@ I designed the structure, wrote the content, and used ChatGPT to assist with:
 .
 ├── blog.html
 ├── blog/
-│   ├── post-1.md
-│   ├── post-2.md
-│   └── post-3.md
+│   ├── here you can add new blog posts in markdown 
+│   
 ├── css/
 │   └── styles.css
 ├── js/
-│   ├── blog.js
-│   └── post.js
+│   ├── blog.js -> edit after placed new blog post
+│   └── post.js 
 └── img/
     └── fevicon.png
 ```
