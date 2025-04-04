@@ -2,7 +2,10 @@
 
 A minimalist, terminal-inspired personal site to document my cybersecurity learning path and share practical insights from my journey.
 
+<<<<<<< HEAD
 ![Screenshot](img/preview.png)
+=======
+>>>>>>> c9f2d6c88be2be25ef937de3d7f65764cad97113
 
 ---
 
