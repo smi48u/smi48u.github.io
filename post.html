@@ -2,12 +2,13 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog – smi48u</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post – smi48u</title>
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="icon" type="image/png" href="img/favicon.png" />
-  <script src="js/blog.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/post.js" defer></script>
 </head>
 <body>
   <div class="sidebar">
@@ -25,21 +26,15 @@
       </ul>
     </nav>
   </header>
-  <main class="blog-layout">
-    <section class="blog-header">
-      <h1 class="glow">Blog</h1>
-      <p class="description">
-        Here you’ll find selected writeups, technical breakdowns, OSINT projects, opsec & infosec notes, and walkthroughs.
-        I share knowledge from my research and real-world experiences in cybersecurity.
-      </p>
-    </section>
-  
-    <section class="blog-list" id="blog-posts"></section>
-    <p class="blog-footer">
-      <i class="fas fa-hourglass-half"></i> More blog posts coming soon...
-    </p>
-    
+
+  <main>
+    <div class="hero">
+      <div class="hero-text">
+        <div class="about-content" id="post-container">
+          <p>Ładowanie posta...</p>
+        </div>
+      </div>
+    </div>
   </main>
-  
 </body>
 </html>
