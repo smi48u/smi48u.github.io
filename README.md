@@ -2,12 +2,7 @@
 
 A minimalist, terminal-inspired personal site to document my cybersecurity learning path and share practical insights from my journey.
 
-<<<<<<< HEAD
-![Screenshot](img/preview.png)
-=======
->>>>>>> c9f2d6c88be2be25ef937de3d7f65764cad97113
 
----
 
 ## 🔎 About this Project
 
@@ -57,7 +52,7 @@ I designed the structure, wrote the content, and used ChatGPT to assist with:
 │   ├── blog.js
 │   └── post.js
 └── img/
-    └── post-3/
+    └── fevicon.png
 ```
 
 ---
