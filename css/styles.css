@@ -355,8 +355,6 @@ button.contact-btn.active {
   margin-bottom: 40px;
 }
 
-
-
 .blog-list {
   flex: 1;
   max-width: 600px;
@@ -374,4 +372,12 @@ button.contact-btn.active {
     max-width: 100%;
     text-align: center;
   }
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #00ffe0;
+  padding: 40px 0 20px;
+  opacity: 0.6;
 }
