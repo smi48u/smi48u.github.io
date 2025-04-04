@@ -2,7 +2,6 @@
 
 A minimalist, terminal-inspired personal site to document my cybersecurity learning path and share practical insights from my journey.
 
-![Screenshot](img/preview.png)
 
 ---
 
