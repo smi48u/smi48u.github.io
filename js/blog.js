@@ -6,7 +6,7 @@ const posts = [
     file: "I-pass-security-plus-exam.md",
     date: "2025-04-07",
     preview: "How I prepared for the CompTIA Security+ exam, what I learned, and what’s next.",
-    icon: "✅",
+    icon: "fas fa-graduation-cap",
     tags: ["security+", "certification", "soc", "career", "exam"]
   },
   {
