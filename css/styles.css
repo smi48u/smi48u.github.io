@@ -15,6 +15,7 @@ body {
   color: #fff;
   font-family: 'Courier New', monospace;
   min-height: 100vh;
+  
 }
 
 @keyframes shift {
@@ -359,7 +360,7 @@ button.contact-btn.active {
   flex-direction: column;
   gap: 30px;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .blog-layout {
     flex-direction: column;
     align-items: center;
@@ -414,4 +415,53 @@ button.contact-btn.active {
   font-style: italic;
   color: #ccc;
   margin: 30px 0;
+}
+/* Fix mobile overflow and long words breaking */
+body {
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+.hero-text, .subtitle, .description {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  padding: 0 1rem;
+}
+
+/* Sidebar adjustment for mobile */
+@media (max-width: 600px) {
+  .sidebar {
+    top: unset;
+    bottom: 20px;
+    left: 10px;
+    transform: none;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+
+  nav ul li {
+    margin: 5px 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
 }
