@@ -1,6 +1,13 @@
 const blogContainer = document.getElementById("blog-posts");
 
 const posts = [
+  //semple
+  //  title: "tytul",
+  //  file: "nazwa pliku.md",
+  //  date: "data",
+  //  preview: "krotki opis",
+  //  icon: "styl ikonek",
+  //  tags: [tagi po "tag"]
   {
     title: "I Passed the CompTIA Security+ Exam",
     file: "I-pass-security-plus-exam.md",

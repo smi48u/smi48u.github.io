@@ -1,14 +1,14 @@
 const container = document.getElementById("post-container");
 const params = new URLSearchParams(window.location.search);
 const file = params.get("id");
-
+//sekcja błędów 
 if (!file) {
-  container.innerHTML = "<p>Nie wybrano posta.</p>";
+  container.innerHTML = "<p>No post selected.</p>";
 } else {
   fetch(`blog/${file}`)
     .then(response => {
       if (!response.ok) {
-        throw new Error("Nie znaleziono pliku.");
+        throw new Error("File not found.");
       }
       return response.text();
     })
@@ -18,6 +18,6 @@ if (!file) {
     })
     .catch(error => {
       console.error(error);
-      container.innerHTML = "<p>Błąd ładowania posta.</p>";
+      container.innerHTML = "<p>Post loading error.</p>";
     });
 }
