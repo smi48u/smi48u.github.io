@@ -21,9 +21,6 @@ I started by creating a realistic plan that fit my lifestyle and physical job (1
 → Professor Messer  
 → Inside Cloud and Security  
 
-**Website:**  
-→ ExamPrepper  
-
 **Tools:**  
 → ChatGPT for tough concepts and deeper explanations  
 
