@@ -76,7 +76,7 @@ I’m ready to face the challenges of this dynamic industry.
 
 Special thanks to:  
 → My friends who supported me  
-→ My coach **Łukasz** and tutor **Vitaliy** for their guidance  
+→ My coach **Łukasz** and tutor **Vitaliya** for their guidance  
 → The **Not The Hidden Wiki** community  
 → Especially **Ms. 影Sys** — for daily knowledge exchange and inspiration
 
