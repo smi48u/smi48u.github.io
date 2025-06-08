@@ -467,9 +467,68 @@ body {
 }
 img {
   display: block;
-  max-width: 120%;
+  max-width: 110%;
   height: auto;
   margin: 30px auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+table {
+  width: auto;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: 'Courier New', monospace;
+  background: rgba(0, 255, 255, 0.02);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+table th, table td {
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  padding: 12px 20px;
+  text-align: center;
+  color: #eee;
+}
+
+table th {
+  background-color: rgba(0, 255, 255, 0.1);
+  font-weight: bold;
+  color: #0ff;
+}
+.code-container {
+  position: relative;
+  margin: 30px 0;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+  transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+  background-color: #00ffff;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.8);
+}
+
+.codeblock {
+  background: #111;
+  color: #90adad;
+  font-family: monospace;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,255,255,0.1);
+  overflow-x: auto;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
