@@ -467,7 +467,7 @@ body {
 }
 img {
   display: block;
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
   margin: 30px auto;
   border-radius: 8px;
