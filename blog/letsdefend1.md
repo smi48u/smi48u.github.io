@@ -18,7 +18,7 @@ This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
 ✅ **Answer: Nikto**
 
-![img2](/img/letsdefend1/image1.png)
+![image.png](/img/letsdefend1/image1.png)
 
 ## 🗂️ Question 2:
 
