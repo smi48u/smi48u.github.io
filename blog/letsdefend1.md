@@ -12,13 +12,13 @@ I started by scanning through the log file and inspecting HTTP headers.
 
 Very quickly, I found a request with a distinctive `User-Agent`:
 
-![image.png](/img/letsdefend1/image.png)
+![Nikto web scanner detection.](/img/letsdefend1/image.png)
 
 This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
 ✅ **Answer: Nikto**
 
-![image.png](image%201.png)
+![image.png](/img/letsdefend1/image1.png)
 
 ## 🗂️ Question 2:
 
@@ -26,13 +26,13 @@ This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
 In subsequent entries, Nikto attempted to access numerous files and folders:
 
-![image.png](image%202.png)
+![image.png](/img/letsdefend1/image2.png)
 
 This suggested a **directory brute-force enumeration**, where the attacker systematically probes common paths to discover hidden resources.
 
 ✅ **Answer: Directory Brute Force**
 
-![image.png](image%203.png)
+![image.png](/img/letsdefend1/image3.png)
 
 ## 🧪 Question 3:
 
@@ -45,15 +45,15 @@ awk '{print $7}' access.log | sort | uniq -c | sort -nr | head -20
 
 ```
 
-![image.png](image%204.png)
+![image.png](/img/letsdefend1/image4.png)
 
-![image.png](image%205.png)
+![image.png](/img/letsdefend1/image5.png)
 
 This revealed over **135 requests to `/login.php`**, indicating a **brute-force attack** against the login form.
 
 ✅ **Answer: Brute Force**
 
-![image.png](image%206.png)
+![image.png](/img/letsdefend1/image6.png)
 
 ## 🔐 Question 4:
 
@@ -71,7 +71,7 @@ his 302 redirect implies a successful login — the attacker was granted access 
 
 ✅ **Answer: Yes**
 
-![image.png](image%207.png)
+![image.png](/img/letsdefend1/image7.png)
 
 ## 💉 Question 5:
 
@@ -79,13 +79,13 @@ his 302 redirect implies a successful login — the attacker was granted access 
 
 Shortly after login, the attacker accessed:
 
-![image.png](image%208.png)
+![image.png](/img/letsdefend1/image8.png)
 
 Then passed input to the `message` parameter that executed system commands. This was a classic case of **Command Injection**.
 
 ✅ **Answer: Command Injection**
 
-![image.png](image%209.png)
+![image.png](/img/letsdefend1/image9.png)
 
 ## 🧠 Question 6:
 
@@ -102,7 +102,7 @@ This command prints the current system user — confirming code execution on the
 
 ✅ **Answer: ""; system('whoami')**
 
-![image.png](image%2010.png)
+![image.png](/img/letsdefend1/image10.png)
 
 ## 🔁 Question 7:
 
@@ -110,7 +110,7 @@ This command prints the current system user — confirming code execution on the
 
 Yes — the attacker tried to **add a new local user**, which is a common persistence technique:
 
-![image.png](image%2011.png)
+![image.png](/img/letsdefend1/image11.png)
 
 ```bash
 GET /bWAPP/phpi.php?message=""; system('net user hacker Asd123!! /add')
@@ -119,7 +119,7 @@ GET /bWAPP/phpi.php?message=""; system('net user hacker Asd123!! /add')
 
 ✅ **Answer:** `""; system('net user hacker Asd123!! /add')`
 
-![image.png](image%2012.png)
+![image.png](/img/letsdefend1/image12.png)
 
 ## ✅ Summary
 
