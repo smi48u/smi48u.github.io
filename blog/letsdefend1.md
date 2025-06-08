@@ -18,7 +18,7 @@ This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
 ✅ **Answer: Nikto**
 
-![img2](/img/letsdefend1/image 1.png)
+![img2](/img/letsdefend1/image1.png)
 
 ## 🗂️ Question 2:
 
@@ -26,13 +26,13 @@ This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
 In subsequent entries, Nikto attempted to access numerous files and folders:
 
-![image.png](/img/letsdefend1/image 2.png)
+![image.png](/img/letsdefend1/image2.png)
 
 This suggested a **directory brute-force enumeration**, where the attacker systematically probes common paths to discover hidden resources.
 
 ✅ **Answer: Directory Brute Force**
 
-![image.png](/img/letsdefend1/image 3.png)
+![image.png](/img/letsdefend1/image3.png)
 
 ## 🧪 Question 3:
 
