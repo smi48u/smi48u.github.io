@@ -465,3 +465,16 @@ body {
     padding: 10px;
   }
 }
+.markdown-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+@media (max-width: 600px) {
+  .markdown-body img {
+    max-width: 90%;
+  }
+}
