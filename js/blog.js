@@ -9,6 +9,14 @@ const posts = [
   //  icon: "styl ikonek",
   //  tags: [tagi po "tag"]
   {
+    title: "Web Attack Investigation (LetsDefend Challenge)",
+    file: "letsdefend1.md",
+    date: "2025-06-08",
+    preview: " investigation of a web attack against a vulnerable application called bWAPP.",
+    icon: "fas fa-graduation-cap",
+    tags: ["letsdefend", "cybersecurity", "soc", "career", "webattack"]
+  },
+  {
     title: "I Passed the CompTIA Security+ Exam",
     file: "I-pass-security-plus-exam.md",
     date: "2025-04-07",
