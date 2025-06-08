@@ -12,7 +12,7 @@ I started by scanning through the log file and inspecting HTTP headers.
 
 Very quickly, I found a request with a distinctive `User-Agent`:
 
-![image.png](image.png)
+![image.png](/img/letsdefend1/image.png)
 
 This clearly indicated the use of the **Nikto web vulnerability scanner**.
 
