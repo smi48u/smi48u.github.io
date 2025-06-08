@@ -57,7 +57,3 @@ Create more technical writeups
 Publish monthly progress logs
 
 <br><br>
-
----
-
-**Built with** ☕ caffeine, 🧠 persistence, and 🧪 curiosity.

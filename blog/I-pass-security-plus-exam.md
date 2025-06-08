@@ -88,6 +88,3 @@ I’d love to share ideas, help others, and grow together.
 
 <br><br>
 
----
-
-**Built with** ☕ caffeine, 🧠 persistence, and 🛡️ curiosity.

@@ -135,11 +135,3 @@ Yes — the attacker tried to **add a new local user**, which is a common persis
 This type of hands-on log analysis is critical for anyone working in SOC or DFIR roles.
 
 It builds intuition for attacker behavior, strengthens detection skills, and improves incident response capabilities.
-
-
-
-# 
-# 
-# 
-
-**Built with** ☕ caffeine, 🧠 persistence, and 🧪 curiosity.
